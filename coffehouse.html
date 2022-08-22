@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Order in Coffee House</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/coffeestyle.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="back">&#8592;</a>
+            <div class="coffee">coffee house</div>
+        </header>
+        <div class="container">
+            <div class="content">
+                <div class="user__data">
+                    <input id="surname" type="text" name="surname" 
+                    placeholder="Surname">
+                    <input id="name" type="text" name="name"
+                    placeholder="Name">
+                </div>
+                <div class="products">
+                    <div class="column">
+                    <div class="data">
+                        <input type="checkbox" id="food1">
+                        <label for="food1">Espresso 1.35$</label>
+                        <input type="text" id="food1_cnt" value="0" data-price="1.35">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food4" name="food">
+                        <label for="food4">Americano 1.85$</label>
+                        <input type="text" id="food4_cnt" value="0" data-price="1.85">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food2" name="food">
+                        <label for="food2">Latte 2$</label>
+                        <input type="text" id="food2_cnt" value="0" data-price="2">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food3" name="food">
+                        <label for="food3">Сappuccino 1.50$</label>
+                        <input type="text" id="food3_cnt" value="0" data-price="1.50">
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="data">
+                        <input type="checkbox" id="food5" name="food">
+                        <label for="food5">Chocolate cupcake 1.35$</label>
+                        <input type="text" id="food5_cnt" value="0" data-price="1.35">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food6" name="food">
+                        <label for="food6">Blueberry muffin 1.5$</label>
+                        <input type="text" id="food6_cnt" value="0" data-price="1.5">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food7" name="food">
+                        <label for="food7">Apple tart 1.7$</label>
+                        <input type="text" id="food7_cnt" value="0" data-price="1.7">
+                    </div>
+                    </div>
+                </div>
+                <p class="result">Total: 0$.</p>
+                <button class="btn">Make an order</button>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
