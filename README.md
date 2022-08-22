@@ -4,4 +4,4 @@ Web technologies - entry level
 ## Author of the course: 
 Maria Azhgikhina 
 Postgraduate student of MPSU, computer science teacher (highest category), QA
-![Certificate](https://ibb.co/qNM7Wk6)
+[Certificate for successful completion of the course](https://stepik.org/cert/1612109)
